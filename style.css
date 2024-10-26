@@ -133,6 +133,36 @@ footer {
   line-height: 1.5em;
 }
 
+/*contact-us section*/
+form {
+  width: 60%;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+form div {
+  padding: 10px 0;
+}
+.form-label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+.form-control {
+  width: 60%;
+  background-color: #f0e2c5;
+  border: none;
+  outline: none;
+  border-bottom: 2px dotted #49281a;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  margin-left: 30%;
+  border: none;
+}
+
 /*footer section*/
 footer {
   text-align: center;
@@ -146,6 +176,7 @@ footer a {
   right: 20px;
   bottom: 20px;
   text-decoration: none;
+  color: #49281a;
   font-size: 30px;
   font-weight: bolder;
 }
